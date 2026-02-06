@@ -75,3 +75,8 @@ while chat:
            
     else :
         print("I'm here to help with any questions you have.")
+
+"""Two phases of NLP:
+1 Text processing(pipeline for processing text)
+2 Contert text-> Numbers(Vectors)
+3 Apply ML"""
