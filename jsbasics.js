@@ -296,3 +296,24 @@ greet(); // will use default parameter value
 // let [a = 10, b = 20] = data; 
 // console.log(a); 
 // console.log(b);
+
+
+// synchronous and asynchronous code demonstration
+console.log("Synchronous code");
+console.log("This will execute first");
+console.log("This will execute second");
+console.log("starting my calculation")
+function calculation(){
+    for(let a=0;a<=1e10;a++){
+
+    }
+}
+calculation()
+console.log("Ending my calculation")
+
+console.log("hello1")
+setTimeout(function(){
+    console.log("hello2")
+},2000) // asynchronous code using setInterval to demonstrate non-blocking behavior
+
+console.log("hello3")

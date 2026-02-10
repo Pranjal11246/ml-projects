@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Web Development</h1>
+    <p>This is your starting point for building amazing web applications.</p>
+    <script>
+        const a= function(){
+            console.log("This is asynchronous task")
+        }
+        setTimeout(a,5000);
+        const changeText = function(){
+            document.querySelector('h1').innerText = "Welcome to 3rd lecture";
+        }
+        setTimeout(changeText,5000);
+    </script>
+    <script>
+        setTimeout(() => {
+            console.log('hello from html!');
+        }, 5000);
+    </script>
+</body>
+</html>
